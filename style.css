@@ -1,0 +1,140 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    /* border: 1px solid red; */
+}
+body{
+    background-image: url("img/bg.jpg");
+}
+.marqe{
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+::-webkit-scrollbar {
+    width: 15px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #fff; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(64, 53, 109); 
+  }
+
+.text{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.heading{
+margin-top: 30%;
+margin-left: 10px;
+}
+
+.heading >h1{
+    color: #fff;
+}
+.heading >p{
+    color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.b{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border: 1px solid rgb(25, 10, 121);
+    border-radius: 25px;
+    color: #fff;
+    background:rgb(25, 10, 121);
+}
+.b:hover{
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    transition: 2s;
+}
+.section-1{
+    background-color: #fff;
+}
+.section-1 p{
+    color:rgb(25, 10, 121);
+    font-weight: 600;
+}
+.section-2{
+    color: #fff;
+}
+
+.fig{
+    border-radius: 100%;
+    width: 150px;
+    border: 1px solid none;
+     height: 140px; 
+     margin-left:30px ;
+     padding-top: 20px;
+    background-color: #fff; 
+}
+.section-3{
+    color: #fff;
+    text-align: center;
+}
+input{
+    color: #fff;
+    outline: none;
+    width: 90%;
+    height: 40px;
+    background:transparent;
+    padding-left: 10px;
+    border:2px solid #fff;
+}
+.section-4{
+    color: #fff;
+}
+.fo>.col-3{
+    font-weight: 600;
+}
+.git>i{
+    border: 1px solid none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 9px;
+    margin-left: 10px;
+    cursor: pointer;  
+}
+.what{
+    position:fixed;
+    margin-left: 1050px;
+    bottom: 40px;
+    cursor: pointer;
+}
+.git>i:hover{
+    background: rgb(15, 36, 120);
+    transition:2s ;
+}
+.fo>.col-3>a:hover{
+    color:rgb(15, 36, 120);
+}
+.Mess{
+    width: 255px;
+    outline: none;
+    border-radius: 15px;
+    color: #585858;
+    font-weight: 500px;
+}
+.ee{
+    width: 100px;
+    height: 100px;
+}
+.ab:hover{
+    color: rgb(15, 36, 120);
+}
+.hr.line{
+    /* color: #fff; */
+    border: 1px solid #fff;
+}
